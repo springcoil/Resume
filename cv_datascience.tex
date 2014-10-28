@@ -1,0 +1,173 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage{verbatim, url}
+
+% moderncv themes
+\moderncvtheme[blue]{classic} % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic} % idem
+
+% character encoding
+\usepackage[utf8]{inputenc} % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.9]{geometry}
+%\setlength{\hintscolumnwidth}{3cm} % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}} % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths} % required when changes are made to page layout lengths
+
+
+% personal data
+\firstname{Peadar}
+\familyname{Coyle}
+\address{Luxembourg City}{Luxembourg} % optional, remove the line if not wanted
+ % optional, remove the line if not wanted
+\mobile{00352661878663}
+\email{peadarcoyle@googlemail.com} % optional, remove the line if not wanted
+\homepage{http://about.me/peadarcoyle} % optional, remove the line if not wanted
+ % optional, remove the line if not wanted
+ %\photo[64pt]{profilepic2}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{Aim: To use mathematics and data science to solve business problems.}           
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+%\nopagenumbers{} % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+% content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+
+\maketitle
+\section{Profile}
+Data scientist trained in the Physical and Mathematical Sciences. Specializes in quantitative 
+methods, applied machine learning, and predictive analytics. Breadth and 
+depth in research methodology with substantive expertise. Proven experience 
+conceptualizing, managing, and executing multiple lines of research. Derives 
+insight from structured and unstructured data to drive business and product 
+decisions.
+
+\section{Experience}
+\cventry{July 2014 - Present}{A-Syst SA}{Data Analytics and Data Management Consultant}{}{}{
+\begin{itemize}
+\item Lead Business Analyst and Analytics Product Architect on a Data intensive Software Product. 
+\item Reporting to the Managing Director on a strategic data analytics and data governance project in the Air Traffic Management industry
+\item Improving my SAS skills by in-house training, training courses and forecasting projects
+\item Leading an internal data warehousing project by transforming data from different sources, using dimensional modelling and 
+data quality and data architecture best-practices.
+\end{itemize}}
+\cventry{March - May 2014}{TriFinance}{Data Science Consultant}{}{}{
+\begin{itemize}
+\item Proposed a model that could increase sales of one product group by 20\% yoy using R and SQL 
+\item Developed and demonstrated my stakeholder management skills during my projects.
+\end{itemize}}
+
+\cventry{1st July 2013 - 31st Dec 2013}{Amazon EU Sarl}{http://www.amazon.com}{Luxembourg}{5 rue Plaetis, Grund, L2338 - Luxembourg}{Supply Chain Execution - Business Intelligence
+\begin{itemize}
+ \item Automated the production of business critical metrics relating to Service Level Agreements, Inventory Allocation, Sku volumes reducing time spent on metrics by 50$\%$
+\item Developed and prototyped web-based dashboards and web-based reporting tools using bash, zsh, python, Django and a collection of SQL databases including SQLlite, MySQL and OracleSQL.
+\item Lead and developed an email reporting tool in the Supply Chain Execution team, saving 5 hours per week on support tasks.
+\item Cultivated and maintained successful working relationships with business partners across a range of departments including Transportation, Operations, Supply Chain.
+\item Proven capacity to communicate the business benefits of accurate data and improved reporting to business partners and financial partners.
+\item Member of a European Supply Chain network strategy team.   
+\end{itemize}}
+
+\cventry{Summer 2012}{Data Science Intern}{http://import.io}{London}{}{Worked as part of a Data team at an 
+award-winning startup
+\begin{itemize}
+\item Worked as part of a Data team on Data problems learning the importance of good data integrity and an appreciation of the complexity of business data.
+ \item As part of a Data Science project, developed some Python code for a NLP problem. Learning about the implementation of Mathematical concepts in Code.
+\item Gained insight into the technology market and cultural differences amongst consumers by leading a Business Intelligence project investigating 
+emerging markets and North America with both the Marketing team and the Data team.
+\end{itemize}}
+
+\cventry{Summer 2009}{Data Scientist Intern}{EightMouths}{Shanghai}{}{Initiated the research and development of a new Event management product
+\begin{itemize}%
+\item Lead the product development of what became the product at http://letsface.cn/
+\end{itemize}}
+\cventry{Sept 2008 - June 2010}{Technician}{Our Ladys Grammar School}{Newry}{}{Supervised an A Level Physics class at a prestigious school
+\begin{itemize}
+ \item Presented expert knowledge, both verbally and in writing, in a comfortable, professional manner
+\end{itemize}}
+
+
+
+\section{Education}
+\cventry{2010 - Early 2014}{MSc}{University of Luxembourg}{Luxembourg}{}{Masters in Mathematics}
+\cventry{2005-2008}{BSc}{University of Bristol}{UK}{}{Bachelors in Physics and Philosophy}
+
+
+\section{Masters Thesis}
+\cvline{title}{\emph{Concentration of Measure and Statistical Learning Theory applied to Time Series models}}
+\cvline{advisor}{Professor Giovanni Pecatti, University of Luxembourg}
+\cvline{description}{This is an exposition of the applications of Statistical Learning Theory a subset of Machine Learning
+to models with dependent data such as time series models}
+\section{Bachelors thesis}
+\cvline{title}{\emph{On the Anholonomy of Light in Coiled Optical Fibers}}
+\cvline{advisor}{Mark Dennis, University of Bristol}
+\cvline{description}{Compared two variants of the geometric phase in Optics, utilizing fiber bundle theory}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Presentations}
+\cvitem{2014}{Putting models into Production with ScienceOps and Python Data Science Meetup Luxembourg}
+\cvitem{2014}{Introduction to NoSQL Data Science Meetup Brussels}
+\cvitem{2014}{Data Science and your Business - Impactory Co-working Space- Luxembourg}
+\cvitem{2013}{Introduction the Python Data Stack - Data Science Meetup Luxembourg}
+\cvitem{2013}{Oral Presentation to the Masters Seminar on Random Fields: The Sudakov-Fernique Inequality - University of Luxembourg}
+\cvitem{2013}{Oral Presentation to a Probability Working Group Uni-Luxembourg: Introduction to the Smart-Path Method} 
+\cvitem{2010}{Poster at the Aharanov-Bohm and Berry Phase Anniversary Symposium - University of Bristol}
+\section{Articles}
+\cvitem{2013} {Walton Magazine - Summer Edition: In Conversation with Alexander Adamou - on Data and the Shipping Industry}
+\cvitem{2012}{Hybrid Education: The evidence grows \url{http://bit.ly/1eLtXoT}}
+\section{Soft and Analytical skills}
+\cvitem{Analytical}{ Gathered experience learning cutting-edge Mathematics through seminars and lectures and wrote an acclaimed Masters thesis on Statistical Learning Theory}
+ \cvitem{Conceptual}{ Developed a sharp analytical ability needed for dynamic theoretical problem solving}
+\cvitem{Perseverance}{ Maintained self-motivation while working independently to achieve a difficult long-term goal}
+\cvitem{Presentation}{ Frequently disseminated complicated ideas to both specialist and non-specialist audiences}
+\section{Computer skills}
+\cvitem{Technologies}{Matlab, Shell, Python, Excel, \LaTeX, SQL, R, Github, Agile, Hive}
+\cvitem{Concepts}{NLP, Probabilistic Models, Machine Learning, Data Mining, Data Structures}
+\section{Mathematics skills}
+\cvitem{Super}{Stochastic Analysis, Homological Algebra, Topology, Mathematical Finance, Statistics}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitem{English}{Native}{}
+\cvitem{French}{Basic}{}
+
+
+
+% Publications from a BibTeX file without multibib\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% for BibTeX numerical labels
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}       % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}   % 'publications' is the name of a BibTeX file
+
+
+\end{document}
